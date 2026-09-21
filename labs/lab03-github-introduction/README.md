@@ -84,5 +84,40 @@ Complete all of the following in your notes section.
 
 # Section 3: Student Notes
 
-Delete this line and write your notes here.
+Yayyyy I get to code now X3
 
+Oh btw the hyperlink wheeeee
+[My silly little github](https://github.com/AsrensChaos)
+
+# Absolute vs relative paths
+
+*These tell the computer where to find  a file or folder in a computer*
+
+## Absolute Paths
+**Absolute paths** are paths that show the entire location starting at the beginning of the drive
+- The format is essentially C:\Users (mind the slash direction)\ Folder1 \ Folder B \ (Any other folders, in order) \ index.html
+Things to note:
+1. Don't actually add spaces or notes in your folder name please, don't be dumb Miro
+2. The amount of folders changes case by case
+3. The .html isn't always HTML code, and changes depending on the file type. Such as .css for css code. Or json for another code I can't remember the name of, unless I'm thinking ofsomething completely different because brain fog yayyyyyy /sarcastic
+
+---
+
+## Relative Paths
+**Relative paths** are paths that show a location based on the folder you're currently residing in
+- The format is essentially *your current folder*\ index.html
+Things to note:
+1. Don't actually add spaces or notation in your folder name please
+2. The amount of folders changes case by case based on which folder you're currently on
+3. Again, the .html isn't always HTML code, remember that Miro. Your brain short circuits sometimes :3
+
+---
+
+### Notes to myself
+- [x] Set up files
+- [x] Write brilliant (but actually basic) code
+- [x] Double check checklist
+- [x] Double check typos
+- [x] Double check display
+- [ ] Eat delicious bread + pad thai yummmm
+- [ ] Procrastinate moving and responsibilities yay
