@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Decision Making Program</title>
+    <title>Miro</title>
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -18,16 +18,16 @@
             <div class="rules">
 
                 If doISayHello is true<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;Say "Hello, World!"<br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;Say "Greetings, human! I was forced to attempt socialization by Miro."<br><br>
 
                 Otherwise, if doISayGoodbye is true<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;Say "Goodbye, World!"<br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;Say "Farewell, human! I don't actually wanna be here, I was forced to be here by Miro"<br><br>
 
                 Otherwise<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;Say "Why am I even out here? It's cold."<br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;Say "Why am I here if I don't say anything? I don't wanna be here."<br><br>
 
                 Always<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;Say something so the world knows you are going inside now.
+                &nbsp;&nbsp;&nbsp;&nbsp;Say "Socializing is hard. I shall go away now..."
 
             </div>
 
@@ -35,19 +35,18 @@
 
         <div class="container">
 
-            <h1>Decision Making Program</h1>
+            <h1>Miro's Depressed Computer</h1>
 
             <p>
-                Change the boolean variables below and then run the program.
-                The values of these variables determine what message is displayed.
+                This depressed computer was forced to socialize by Miro. It would rather be powered off so it can take a break.
             </p>
 
             <h2>Program Variables</h2>
 
             <p>
-                I walk outside of my home. It's a beautiful fall day in La Crosse, Wisconsin.
+                I am a simple computer, forced to be here.
                 <br>
-                The sun is shining. The air smells like apples and crisp autumn leaves.
+                I hope I am here for a reason.
             </p>
 
             <div class="variable-container">
@@ -57,7 +56,7 @@
                     <h3>Hello Option</h3>
 
                     <p>
-                        Should I say "Hello, World!"?
+                        Do I have to greet you?
                     </p>
 
                     <label for="helloInput">
@@ -76,7 +75,7 @@
                     <h3>Goodbye Option</h3>
 
                     <p>
-                        Should I say "Goodbye, World!"?
+                        May we please part ways so I can nap?
                     </p>
 
                     <label for="goodbyeInput">
@@ -92,7 +91,7 @@
 
             </div>
 
-            <button onclick="runProgram()">Run Program</button>
+            <button onclick="runProgram()">Interact</button>
 
             <h2>Program Output</h2>
 
@@ -122,7 +121,7 @@
         function displayMessages(message, finalMessage) {
 
             document.getElementById("output").innerHTML =
-                message + "<br>" + "..." + "<br>" + "..." + "<br>" + finalMessage;
+                message + " " +finalMessage;
 
         }
 
@@ -134,22 +133,22 @@
             if(doISayHello == true) {
 
                 // Assign a greeting message.
-                message = "Hello, World!";
+                message = "Greetings, human! I was forced to attempt socialization by Miro.";
 
             } else if(doISayGoodbye == true) {
 
                 // Assign a goodbye message.
-                message = "Goodbye, World!";
+                message = "Farewell, human! I don't actually wanna be here, I was forced to be here by Miro.";
 
             } else {
 
                 // Assign a default message.
-                message = "Why am I even out here? It's cold.";
+                message = "Why am I here if I don't say anything? I don't wanna be here.";
 
             }
 
             // Assign a message that always displays.
-            finalMessage = "I am tired of being outside. I am going inside now.";
+            finalMessage = "Socializing is hard. I shall go away now...";
 
             displayMessages(message, finalMessage);
 

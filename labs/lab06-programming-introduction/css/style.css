@@ -66,12 +66,12 @@ body {
 
     background: rgba(0, 0, 0, 0.25);
 
-    border: 2px solid #ff66cc;
+    border: 2px solid #39ff14;
     border-radius: 10px;
 
     box-shadow:
-        0 0 15px #ff66cc,
-        0 0 30px rgba(255, 102, 204, 0.35);
+        0 0 15px #39ff14,
+        0 0 30px rgba(2, 56, 24, 0.35);
 }
 
 /* ===== Headings ===== */
@@ -83,12 +83,12 @@ h3 {
 }
 
 h1 {
-    color: #ff66cc;
+    color: #39ff14;
 
     margin-top: 0;
     margin-bottom: 20px;
 
-    text-shadow: 0 0 4px rgba(255, 102, 204, 0.25);
+    text-shadow: 0 0 4px rgba(3, 73, 7, 0.25);
 }
 
 h2 {
@@ -100,7 +100,7 @@ h2 {
 }
 
 h3 {
-    color: #ffb347;
+    color: #66e6ff
 
     margin-top: 0;
     margin-bottom: 15px;
@@ -116,7 +116,7 @@ p {
 }
 
 strong {
-    color: #ffb347;
+    color: #66e6ff;
 }
 
 /* ===== Variable Cards ===== */
@@ -135,11 +135,11 @@ strong {
 
     background: rgba(0, 0, 0, 0.20);
 
-    border: 2px solid #ff66cc;
+    border: 2px solid #39ff14;
     border-radius: 8px;
 
     box-shadow:
-        0 0 10px rgba(255, 102, 204, 0.25);
+        0 0 10px rgba(3, 68, 22, 0.25);
 }
 
 /* ===== Labels ===== */
@@ -158,26 +158,26 @@ select {
     padding: 10px;
     margin-top: 10px;
 
-    background-color: #1a102b;
+    background-color: #2a102b;
 
     color: white;
 
-    border: 2px solid #ff66cc;
+    border: 2px solid #39ff14;
     border-radius: 6px;
 
     font-size: 1rem;
     font-family: inherit;
 
     box-shadow:
-        0 0 8px rgba(255, 102, 204, 0.5);
+        0 0 8px rgba(102, 255, 122, 0.5);
 
     outline: none;
 }
 
 select:focus {
     box-shadow:
-        0 0 12px #ff66cc,
-        0 0 20px rgba(255, 102, 204, 0.5);
+        0 0 12px #39ff14,
+        0 0 20px rgba(102, 255, 135, 0.5);
 }
 
 /* ===== Button ===== */
@@ -189,11 +189,11 @@ button {
 
     background: linear-gradient(
         to right,
-        #ff0088,
-        #ff7a18
+        #39ff14,
+        #66e6ff
     );
 
-    color: white;
+    color: DarkslateBlue;
 
     border: none;
     border-radius: 6px;
@@ -207,7 +207,7 @@ button {
     cursor: pointer;
 
     box-shadow:
-        0 0 12px rgba(255, 0, 136, 0.6);
+        0 0 12px rgba(82, 44, 187, 0.6);
 
     transition: all 0.2s ease;
 }
@@ -216,8 +216,8 @@ button:hover {
     transform: translateY(-2px);
 
     box-shadow:
-        0 0 18px rgba(255, 0, 136, 0.8),
-        0 0 30px rgba(255, 0, 136, 0.4);
+        0 0 18px rgba(0, 255, 76, 0.8),
+        0 0 30px rgba(82, 44, 187, 0.6),
 }
 
 /* ===== Output ===== */
